@@ -6,8 +6,12 @@
 
   <ItemGroup>
     <None Remove="Model\" />
+    <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.12" />
   </ItemGroup>
 </Project>

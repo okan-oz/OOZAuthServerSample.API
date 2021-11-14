@@ -8,4 +8,10 @@
   </ItemGroup>
 
 
+  <ItemGroup>
+    <None Remove="Dto\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dto\" />
+  </ItemGroup>
 </Project>

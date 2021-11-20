@@ -11,6 +11,7 @@
     <None Remove="GenericService\" />
     <None Remove="Dto\" />
     <None Remove="Configuration\" />
+    <None Remove="Service\UnitOfWork\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
@@ -18,6 +19,7 @@
     <Folder Include="Service\" />
     <Folder Include="Dto\" />
     <Folder Include="Configuration\" />
+    <Folder Include="Service\UnitOfWork\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.12" />

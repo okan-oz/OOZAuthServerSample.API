@@ -7,4 +7,14 @@
   <ItemGroup>
     <ProjectReference Include="..\OOZAuthServerSample.Data\OOZAuthServerSample.Data.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="AutoMapper" />
+    <None Remove="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
 </Project>

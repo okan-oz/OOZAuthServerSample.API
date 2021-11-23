@@ -10,8 +10,10 @@
 
   <ItemGroup>
     <None Remove="Dto\" />
+    <None Remove="Configurations\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dto\" />
+    <Folder Include="Configurations\" />
   </ItemGroup>
 </Project>

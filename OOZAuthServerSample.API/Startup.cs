@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using OOZAuthServereSample.Core.Configuration;
 using OOZAuthServerSample.SharedLibrary.Configurations;
 
 namespace OOZAuthServerSample.API
@@ -29,6 +24,8 @@ namespace OOZAuthServerSample.API
         {
 
             services.Configure<CustomTokenOption>(Configuration.GetSection("TokenOption"));
+
+            services.Configure<List<Client>>(Configuration.GetSection("Clients"));
 
             addSwagger(services);
             services.AddControllers();

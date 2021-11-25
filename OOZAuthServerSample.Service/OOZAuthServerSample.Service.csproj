@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OOZAuthServerSample.Data\OOZAuthServerSample.Data.csproj" />
+    <ProjectReference Include="..\OOZAuthServereSample.Core\OOZAuthServereSample.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="AutoMapper" />

@@ -14,5 +14,8 @@
     <ProjectReference Include="..\OOZAuthServerSample.SharedLibrary\OOZAuthServerSample.SharedLibrary.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\OOZAuthServereSample.Core\OOZAuthServereSample.Core.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>

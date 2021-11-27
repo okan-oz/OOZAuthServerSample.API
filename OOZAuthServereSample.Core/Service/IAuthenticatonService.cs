@@ -13,7 +13,7 @@ namespace OOZAuthServereSample.Core.Service
 
         Task<Response<NoDataDto>> RevokeRefreshToken(string refreshToken);
 
-        Task<ClientTokenDto> CreateTokenByClient(ClientLoginDto clientLoginDto);
+        Response<ClientTokenDto> CreateTokenByClient(ClientLoginDto clientLoginDto);
 
     }
 }

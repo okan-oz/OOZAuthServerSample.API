@@ -8,6 +8,7 @@
     <None Remove="Swashbuckle.AspNetCore" />
     <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
+    <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
@@ -16,6 +17,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OOZAuthServerSample.SharedLibrary\OOZAuthServerSample.SharedLibrary.csproj">

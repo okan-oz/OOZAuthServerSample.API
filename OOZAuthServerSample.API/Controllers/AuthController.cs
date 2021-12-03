@@ -42,7 +42,7 @@ namespace OOZAuthServerSample.API.Controllers
         [HttpPost]
         public async Task<IActionResult> RevokeRefreshtoken(RefreshTokenDto refreshToken)
         {
-            var result =await _authenticatonService.CreateTokenByRefreshToken(refreshToken.Token);
+            var result =await _authenticatonService.RevokeRefreshToken(refreshToken.Token);
             return ActionResultInstance(result);
         }
 

@@ -18,6 +18,7 @@ using OOZAuthServereSample.Core.Model;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using OOZAuthServerSample.Service;
+using OOZAuthServerSample.SharedLibrary.Services;
 
 namespace OOZAuthServerSample.API
 {

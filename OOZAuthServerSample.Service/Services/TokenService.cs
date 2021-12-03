@@ -12,6 +12,7 @@ using OOZAuthServereSample.Core.Dto;
 using OOZAuthServereSample.Core.Model;
 using OOZAuthServereSample.Core.Service;
 using OOZAuthServerSample.SharedLibrary.Configurations;
+using OOZAuthServerSample.SharedLibrary.Services;
 
 namespace OOZAuthServerSample.Service.Services
 {

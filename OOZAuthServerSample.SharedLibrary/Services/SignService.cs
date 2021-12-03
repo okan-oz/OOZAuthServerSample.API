@@ -2,7 +2,7 @@
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 
-namespace OOZAuthServerSample.Service
+namespace OOZAuthServerSample.SharedLibrary.Services
 {
     public static class SignService
     {
@@ -10,7 +10,8 @@ namespace OOZAuthServerSample.Service
         public static SecurityKey GetSymetricSecurityKey(string key)
         {
 
-            return new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key) );
+            return new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key));
         }
     }
 }
+ 

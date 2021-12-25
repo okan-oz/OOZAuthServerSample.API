@@ -103,6 +103,8 @@ namespace OOZAuthServerSample.API
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCus
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
